@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+		- build & tested OK on 20230818 - 
       </header>
     </div>
   );
