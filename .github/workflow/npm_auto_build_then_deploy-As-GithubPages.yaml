@@ -21,4 +21,5 @@ jobs:
         # FOLDER: build
         FOLDER: ga-demo01_njs1/build
 
-        BUILD_SCRIPT: npm install && npm run build
+        # BUILD_SCRIPT: npm install && npm run build
+        BUILD_SCRIPT: cd ga-demo01_njs1 && npm install && npm run build
