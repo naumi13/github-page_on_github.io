@@ -20,7 +20,8 @@ jobs:
         # npm run-script build
         npm run build
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      # uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # ACCESS_TOKEN: ${{ secrets.GA_ACCESS_TOKEN01 }}
