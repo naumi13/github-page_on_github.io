@@ -17,8 +17,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GA_ACCESS_TOKEN01 }}
 
         BRANCH: gh-pages
-
-        # FOLDER: build
-        FOLDER: ga-demo01_njs1/build
-
+        FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
