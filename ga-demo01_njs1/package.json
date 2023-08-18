@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "https://naumi13.github.io/github-page_on_github.io/ga-demo01_njs1",
+  "homepage": "https://naumi13.github.io/github-page_on_github.io",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
