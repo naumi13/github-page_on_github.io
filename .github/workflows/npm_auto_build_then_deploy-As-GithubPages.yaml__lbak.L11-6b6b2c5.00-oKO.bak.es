@@ -29,7 +29,7 @@ jobs:
         token: ${{ secrets.GA_ACCESS_TOKEN01 }}
         # BRANCH: gh-pages
         # FOLDER: build
-        folder: build
+        # folder: build
 
         # FOLDER: ga-demo01_njs1/build
-        # folder: ga-demo01_njs1/build
+        folder: ga-demo01_njs1/build
