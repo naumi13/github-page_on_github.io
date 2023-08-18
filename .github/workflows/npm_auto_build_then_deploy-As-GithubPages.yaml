@@ -21,7 +21,8 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GA_ACCESS_TOKEN01 }}
         BRANCH: gh-pages
         FOLDER: build
         # FOLDER: ga-demo01_njs1/build
