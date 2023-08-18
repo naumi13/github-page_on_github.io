@@ -15,7 +15,7 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
-        cd ga-demo01_njs1 # ES20230818-1940: added "cd ga-demo01_njs1"
+        # cd ga-demo01_njs1 # ES20230818-1940: added "cd ga-demo01_njs1"
         npm install
         # npm run-script build
         npm run build
@@ -31,5 +31,5 @@ jobs:
         # FOLDER: build
         # folder: build
 
-        # FOLDER: ga-demo01_njs1/build
-        folder: ga-demo01_njs1/build
+        FOLDER: ga-demo01_njs1/build
+        # folder: ga-demo01_njs1/build
