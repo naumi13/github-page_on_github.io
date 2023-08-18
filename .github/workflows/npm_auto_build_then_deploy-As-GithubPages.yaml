@@ -13,8 +13,7 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
-        # ES20230818-1940: added "cd ga-demo01_njs1"
-        cd ga-demo01_njs1
+        cd ga-demo01_njs1 # ES20230818-1940: added "cd ga-demo01_njs1"
         npm install
         npm run-script build
     - name: Deploy
@@ -22,5 +21,4 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
-        # FOLDER: build
         FOLDER: ga-demo01_njs1/build
